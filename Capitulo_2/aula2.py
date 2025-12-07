@@ -2,15 +2,15 @@ def main():
     #Definindo variáveis
     '''
     nome = "Maria"
-
+    
     #Formatando a Saída de Dados
     idade = 30
-    #print("O nome dela é", nome, "e ela tem", idade, "anos.")
+    print("O nome dela é", nome, "e ela tem", idade, "anos.")
     #Separarador (sep)
-    #print(nome, idade, sep=" - ")
+    print(nome, idade, sep=" - ")
     #Utilizando f-strings
-    #print(f"O nome dela é {nome} e tem {idade} anos.")
-
+    print(f"O nome dela é {nome} e tem {idade} anos.")
+    
     #Formatando Números Com Casas Decimais
     valor = 123.456789
     #print(f"O valor formatado é: {valor:.2f}")
@@ -57,7 +57,7 @@ def main():
     #Impressão do último caractere usando índice -1
     #print(f"O último caractere é: {texto[-1]}")
     #Impressão de partes da string usando índices
-    #print(f"Parte da string: {texto[4:9]}")
+    print(f"Parte da string: {texto[5:9]}")
     #print("Parte da string:", texto[4:9])
     #Inverte a string
     #print(f"String invertida: {texto[::-1]}")
@@ -103,6 +103,7 @@ def main():
     '''
 
     #Listas de dados compostos (Coleções)
+    #Listas são MUTÁVEIS
     '''
     #Criação de listas:
     lista_vazia = []
@@ -198,7 +199,7 @@ def main():
     print(numeros - numeros2)
         Os elementos devem ser imutáveis
     '''
-
+    '''
     #Estruturas de Decisão
         #if / else / elif
     idade = 21
@@ -208,9 +209,9 @@ def main():
         print("Você é adulto")
     else:
         print("Você é um idoso.")
-
+    '''
         #match case
-    opcao = 2
+    opcao = int(input())
     match opcao:
         case 1:
             print("Opção 1 selecionada")
@@ -220,6 +221,15 @@ def main():
             print("Opção 3 ou 4 selecionada")
         case _: #opção coringa, equivalente ao else
             print("Opção inválida")
+
+    ponto = list(map(float, input().split(","))) # Recebendo as coordenadas pelo input, identificando os valores únicos pela vírgula
+    match ponto:
+        case (0, y):
+            print(f"Ponto no eixo Y, coordenada {y}")
+        case (x, 0):
+            print(f"Ponto no eixo X, coordenada {x}")
+        case (x, y):
+            print(f"Ponto em ({x:.1f}, {y:.1f})")
 
 
 if __name__ == "__main__":
