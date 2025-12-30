@@ -1,6 +1,5 @@
 # Programação - UFRN 🎓
 
-![Linguagem](https://img.shields.io/badge/C%2B%2B-17-blue)
 ![Python](https://img.shields.io/badge/Python-3.10-yellow)
 
 ## 📖 Descrição
