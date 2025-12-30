@@ -12,8 +12,8 @@ Aqui estão solucionados problemas de lógica, estruturas de dados e algoritmos.
 * **Capítulo 1:** Introdução à programação em Python.
 * **Capítulo 2:** Tipos de dados e Estruturas Condicionais.
 * **Capítulo 3:** Operadores e Expressões
-* **Capítulo 4:** Controle de Fluxo e Números Aleatórios
-* **Capítulo 5:** Funções e Modularização
-* **Capítulo 6:** Manipulação de Strings
-* **Capítulo 7:** Computação Numérica e Visualização de Dados (Matplotlib)
-* **Capítulo 8:** Tratamento de Erros
+* **Capítulo 4:** Controle de Fluxo e Números Aleatórios _(Em Andamento)_
+* **Capítulo 5:** Funções e Modularização _(Em Andamento)_
+* **Capítulo 6:** Manipulação de Strings _(Em Breve)_
+* **Capítulo 7:** Computação Numérica e Visualização de Dados (Matplotlib) _(Em Breve)_
+* **Capítulo 8:** Tratamento de Erros _(Em Breve)_
