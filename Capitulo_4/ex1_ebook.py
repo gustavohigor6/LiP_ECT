@@ -13,7 +13,7 @@ def main():
 
     for i in idades:
         if i < 13:
-            print("Menor de idade")
+            print("Atividade Alura")
         elif 13 <= i <= 17:
             print("Adolescente")
         elif 18 <= i <= 59:
